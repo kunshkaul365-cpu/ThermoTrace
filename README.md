@@ -94,16 +94,6 @@ npm run dev
 * 🗺️ Advanced GIS layers
 * 📊 Model monitoring
 
-## 👥 Team
-
-| Name         | Role      |
-| ------------ | --------- |
-| `[Member 1]` | Team Lead |
-| `[Member 2]` | ML / Data |
-| `[Member 3]` | Backend   |
-| `[Member 4]` | Frontend  |
-
----
 
 ### 🛰️ ThermoTrace
 
