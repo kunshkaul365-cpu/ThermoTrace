@@ -100,18 +100,14 @@ function ClusterLayer({ points, onSourceClick }) {
     setZoom(map.getZoom());
   }, [map]);
 
+  useEffect(() => {
+    updateMapState();
+  }, [updateMapState]);
+
   useMapEvents({
     moveend: updateMapState,
     zoomend: updateMapState,
-    load: updateMapState,
   });
-
-  useMemo(() => {
-    if (!bounds) {
-      const b = map.getBounds();
-      setBounds([b.getWest(), b.getSouth(), b.getEast(), b.getNorth()]);
-    }
-  }, []);
 
   const { clusters, supercluster } = useSupercluster({
     points,
@@ -119,6 +115,8 @@ function ClusterLayer({ points, onSourceClick }) {
     zoom,
     options: { radius: 75, maxZoom: 18 },
   });
+
+  if (!bounds) return null;
 
   return (
     <>
@@ -146,6 +144,7 @@ function ClusterLayer({ points, onSourceClick }) {
         }
 
         const source = cluster.properties;
+
         return (
           <Marker
             key={`source-${source.source_id}`}
@@ -154,13 +153,12 @@ function ClusterLayer({ points, onSourceClick }) {
             eventHandlers={{
               click: () => onSourceClick?.(source),
             }}
-          ></Marker>
+          />
         );
       })}
     </>
   );
 }
-
 function MapLegend() {
   return (
     <ul className="absolute bottom-4 left-4 z-[1000] flex flex-col gap-1.5">
