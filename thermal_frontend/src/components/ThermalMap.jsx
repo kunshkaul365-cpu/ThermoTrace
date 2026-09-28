@@ -4,7 +4,7 @@ import L from "leaflet";
 import useSupercluster from "use-supercluster";
 import useSWR from "swr";
 
-const API_URL = "http://localhost:8000/api/thermal-sources";
+const API_URL = "https://thermo-trace.vercel.app/api/thermal-sources";
 
 const fetcher = (url) =>
   fetch(url).then((res) => {
