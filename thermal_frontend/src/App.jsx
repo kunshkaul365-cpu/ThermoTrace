@@ -160,7 +160,7 @@ export default function App() {
               onSourceClick={async (sourceData) => {
                 try {
                   const response = await fetch(
-                    `http://localhost:8000/api/assessments/${sourceData.source_id}`
+                   `https://thermo-trace.vercel.app/api/assessments/${sourceData.source_id}`
                   );
                   if (!response.ok) {
                     const body = await response.json().catch(() => ({}));
