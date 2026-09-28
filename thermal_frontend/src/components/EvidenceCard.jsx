@@ -21,7 +21,7 @@ function FrpHistory({ sourceId }) {
     setState({ loading: true, data: null });
     setHovered(null);
 
-    fetch(`http://localhost:8000/api/assessments/${sourceId}/frp-history`)
+    fetch(`https://thermo-trace.vercel.app/api/assessments/${sourceId}/frp-history`)
       .then((res) => res.json())
       .then((data) => {
         if (!cancelled) setState({ loading: false, data });
