@@ -94,9 +94,6 @@ npm run dev
 * 🗺️ Advanced GIS layers
 * 📊 Model monitoring
 
-
-### 🛰️ ThermoTrace
+ ## 🛰️ ThermoTrace
 
 **Detect • Classify • Prioritize • Visualize**
-
-Made with ❤️ for **Smart India Hackathon**
