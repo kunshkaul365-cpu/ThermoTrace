@@ -1,0 +1,1170 @@
+[
+  {
+    "source_id": "SRC-00001",
+    "classification": {
+      "source_id": "SRC-00001",
+      "class_label": "unknown",
+      "class_probs": {
+        "industrial": 0.0492,
+        "gas_flare": 0.1623,
+        "volcano": 0.1491,
+        "agricultural_burning": 0.1966,
+        "wildfire": 0.0192,
+        "unknown": 0.4236
+      },
+      "top_features": [
+        "brightness_temp_std",
+        "nighttime_persistence"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "built_up",
+      "vnf_bt_match": null,
+      "confidence": 0.755,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00001",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "new",
+      "statistic": 2.05,
+      "confidence": 0.794,
+      "coverage_status": "partial",
+      "baseline_days": 60
+    },
+    "evidence_complete": true,
+    "priority_tier": "P1",
+    "priority_rationale": "P1 priority: new thermal anomaly on a source classified as unknown.",
+    "last_updated": "2026-09-16T13:36:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00002",
+    "classification": {
+      "source_id": "SRC-00002",
+      "class_label": "agricultural_burning",
+      "class_probs": {
+        "industrial": 0.1852,
+        "gas_flare": 0.039,
+        "volcano": 0.1031,
+        "agricultural_burning": 0.4339,
+        "wildfire": 0.0525,
+        "unknown": 0.1863
+      },
+      "top_features": [
+        "brightness_temp_std",
+        "sensor_agreement"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "cropland",
+      "vnf_bt_match": false,
+      "confidence": 0.9,
+      "assessment_status": "pending"
+    },
+    "anomaly": {
+      "source_id": "SRC-00002",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "declining",
+      "statistic": 2.43,
+      "confidence": 0.857,
+      "coverage_status": "partial",
+      "baseline_days": 90
+    },
+    "evidence_complete": false,
+    "priority_tier": "P2",
+    "priority_rationale": "P2 priority: declining thermal anomaly on a source classified as agricultural burning.",
+    "last_updated": "2026-09-16T14:25:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00003",
+    "classification": {
+      "source_id": "SRC-00003",
+      "class_label": "agricultural_burning",
+      "class_probs": {
+        "industrial": 0.1364,
+        "gas_flare": 0.19,
+        "volcano": 0.1273,
+        "agricultural_burning": 0.486,
+        "wildfire": 0.0101,
+        "unknown": 0.0502
+      },
+      "top_features": [
+        "brightness_temp_std",
+        "nighttime_persistence",
+        "diurnal_pattern_score"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "forest",
+      "vnf_bt_match": false,
+      "confidence": 0.668,
+      "assessment_status": "pending"
+    },
+    "anomaly": {
+      "source_id": "SRC-00003",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "new",
+      "statistic": 4.51,
+      "confidence": 0.412,
+      "coverage_status": "full",
+      "baseline_days": 30
+    },
+    "evidence_complete": false,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: new thermal anomaly on a source classified as agricultural burning.",
+    "last_updated": "2026-09-16T09:29:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00004",
+    "classification": {
+      "source_id": "SRC-00004",
+      "class_label": "unknown",
+      "class_probs": {
+        "industrial": 0.147,
+        "gas_flare": 0.033,
+        "volcano": 0.0765,
+        "agricultural_burning": 0.1996,
+        "wildfire": 0.1291,
+        "unknown": 0.4148
+      },
+      "top_features": [
+        "cluster_compactness",
+        "frp_p95",
+        "nighttime_persistence",
+        "sensor_agreement"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "cropland",
+      "vnf_bt_match": false,
+      "confidence": 0.637,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00004",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "new",
+      "statistic": -2.4,
+      "confidence": 0.93,
+      "coverage_status": "full",
+      "baseline_days": 30
+    },
+    "evidence_complete": true,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: new thermal anomaly on a source classified as unknown.",
+    "last_updated": "2026-09-16T13:40:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00005",
+    "classification": {
+      "source_id": "SRC-00005",
+      "class_label": "unknown",
+      "class_probs": {
+        "industrial": 0.1183,
+        "gas_flare": 0.0683,
+        "volcano": 0.0636,
+        "agricultural_burning": 0.1447,
+        "wildfire": 0.0677,
+        "unknown": 0.5374
+      },
+      "top_features": [
+        "sensor_agreement",
+        "cluster_compactness",
+        "nighttime_persistence",
+        "brightness_temp_std"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "grassland",
+      "vnf_bt_match": false,
+      "confidence": 0.454,
+      "assessment_status": "needs_review"
+    },
+    "anomaly": {
+      "source_id": "SRC-00005",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "seasonal",
+      "statistic": -2.58,
+      "confidence": 0.376,
+      "coverage_status": "partial",
+      "baseline_days": 60
+    },
+    "evidence_complete": false,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: seasonal thermal anomaly on a source classified as unknown.",
+    "last_updated": "2026-09-16T10:23:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00006",
+    "classification": {
+      "source_id": "SRC-00006",
+      "class_label": "industrial",
+      "class_probs": {
+        "industrial": 0.3555,
+        "gas_flare": 0.1123,
+        "volcano": 0.1913,
+        "agricultural_burning": 0.1381,
+        "wildfire": 0.0233,
+        "unknown": 0.1796
+      },
+      "top_features": [
+        "cluster_compactness",
+        "brightness_temp_std",
+        "seasonal_deviation"
+      ],
+      "facility_name": "Barmer Oil Field",
+      "facility_distance_m": 2179.5,
+      "land_cover_class": "forest",
+      "vnf_bt_match": true,
+      "confidence": 0.963,
+      "assessment_status": "needs_review"
+    },
+    "anomaly": {
+      "source_id": "SRC-00006",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "seasonal",
+      "statistic": 4.88,
+      "confidence": 0.482,
+      "coverage_status": "full",
+      "baseline_days": 14
+    },
+    "evidence_complete": false,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: seasonal thermal anomaly on a source classified as industrial.",
+    "last_updated": "2026-09-16T11:09:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00007",
+    "classification": {
+      "source_id": "SRC-00007",
+      "class_label": "industrial",
+      "class_probs": {
+        "industrial": 0.3876,
+        "gas_flare": 0.1788,
+        "volcano": 0.1265,
+        "agricultural_burning": 0.1826,
+        "wildfire": 0.1244,
+        "unknown": 0.0001
+      },
+      "top_features": [
+        "vnf_bt_delta",
+        "frp_p95",
+        "brightness_temp_std"
+      ],
+      "facility_name": "Bokaro Steel Plant",
+      "facility_distance_m": 4646.2,
+      "land_cover_class": "barren",
+      "vnf_bt_match": true,
+      "confidence": 0.434,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00007",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "flare_up",
+      "statistic": 4.9,
+      "confidence": 0.953,
+      "coverage_status": "full",
+      "baseline_days": 60
+    },
+    "evidence_complete": true,
+    "priority_tier": "P4",
+    "priority_rationale": "P4 priority: flare up thermal anomaly on a source classified as industrial.",
+    "last_updated": "2026-09-16T14:53:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00008",
+    "classification": {
+      "source_id": "SRC-00008",
+      "class_label": "wildfire",
+      "class_probs": {
+        "industrial": 0.1261,
+        "gas_flare": 0.0608,
+        "volcano": 0.2,
+        "agricultural_burning": 0.097,
+        "wildfire": 0.3925,
+        "unknown": 0.1236
+      },
+      "top_features": [
+        "nighttime_persistence",
+        "seasonal_deviation",
+        "sensor_agreement",
+        "cluster_compactness"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "wetland",
+      "vnf_bt_match": false,
+      "confidence": 0.658,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00008",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "persistent",
+      "statistic": 1.66,
+      "confidence": 0.383,
+      "coverage_status": "full",
+      "baseline_days": 30
+    },
+    "evidence_complete": true,
+    "priority_tier": "P2",
+    "priority_rationale": "P2 priority: persistent thermal anomaly on a source classified as wildfire.",
+    "last_updated": "2026-09-16T15:18:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00009",
+    "classification": {
+      "source_id": "SRC-00009",
+      "class_label": "wildfire",
+      "class_probs": {
+        "industrial": 0.0166,
+        "gas_flare": 0.1479,
+        "volcano": 0.0537,
+        "agricultural_burning": 0.2122,
+        "wildfire": 0.553,
+        "unknown": 0.0166
+      },
+      "top_features": [
+        "seasonal_deviation",
+        "vnf_bt_delta"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "built_up",
+      "vnf_bt_match": null,
+      "confidence": 0.478,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00009",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "declining",
+      "statistic": 5.42,
+      "confidence": 0.694,
+      "coverage_status": "full",
+      "baseline_days": 60
+    },
+    "evidence_complete": true,
+    "priority_tier": "P2",
+    "priority_rationale": "P2 priority: declining thermal anomaly on a source classified as wildfire.",
+    "last_updated": "2026-09-16T12:00:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00010",
+    "classification": {
+      "source_id": "SRC-00010",
+      "class_label": "gas_flare",
+      "class_probs": {
+        "industrial": 0.0981,
+        "gas_flare": 0.5642,
+        "volcano": 0.0129,
+        "agricultural_burning": 0.156,
+        "wildfire": 0.1542,
+        "unknown": 0.0145
+      },
+      "top_features": [
+        "cluster_compactness",
+        "brightness_temp_std",
+        "nighttime_persistence",
+        "distance_to_known_facility"
+      ],
+      "facility_name": "Paradip Industrial Cluster",
+      "facility_distance_m": 959.1,
+      "land_cover_class": "forest",
+      "vnf_bt_match": true,
+      "confidence": 0.649,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00010",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "new",
+      "statistic": -0.49,
+      "confidence": 0.472,
+      "coverage_status": "insufficient",
+      "baseline_days": 60
+    },
+    "evidence_complete": true,
+    "priority_tier": "P1",
+    "priority_rationale": "P1 priority: new thermal anomaly on a source classified as gas flare.",
+    "last_updated": "2026-09-16T10:47:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00011",
+    "classification": {
+      "source_id": "SRC-00011",
+      "class_label": "industrial",
+      "class_probs": {
+        "industrial": 0.4832,
+        "gas_flare": 0.1813,
+        "volcano": 0.1661,
+        "agricultural_burning": 0.0325,
+        "wildfire": 0.095,
+        "unknown": 0.0418
+      },
+      "top_features": [
+        "frp_p95",
+        "detection_frequency",
+        "sensor_agreement"
+      ],
+      "facility_name": "Jamnagar Refinery Complex",
+      "facility_distance_m": 20.8,
+      "land_cover_class": "forest",
+      "vnf_bt_match": false,
+      "confidence": 0.947,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00011",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "new",
+      "statistic": 4.07,
+      "confidence": 0.497,
+      "coverage_status": "partial",
+      "baseline_days": 90
+    },
+    "evidence_complete": true,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: new thermal anomaly on a source classified as industrial.",
+    "last_updated": "2026-09-16T09:50:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00012",
+    "classification": {
+      "source_id": "SRC-00012",
+      "class_label": "unknown",
+      "class_probs": {
+        "industrial": 0.1945,
+        "gas_flare": 0.1163,
+        "volcano": 0.1089,
+        "agricultural_burning": 0.1502,
+        "wildfire": 0.0115,
+        "unknown": 0.4186
+      },
+      "top_features": [
+        "distance_to_known_facility",
+        "detection_frequency",
+        "frp_p95",
+        "seasonal_deviation"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "cropland",
+      "vnf_bt_match": true,
+      "confidence": 0.44,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00012",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "seasonal",
+      "statistic": -2.39,
+      "confidence": 0.895,
+      "coverage_status": "full",
+      "baseline_days": 90
+    },
+    "evidence_complete": true,
+    "priority_tier": "P2",
+    "priority_rationale": "P2 priority: seasonal thermal anomaly on a source classified as unknown.",
+    "last_updated": "2026-09-16T13:22:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00013",
+    "classification": {
+      "source_id": "SRC-00013",
+      "class_label": "wildfire",
+      "class_probs": {
+        "industrial": 0.1535,
+        "gas_flare": 0.1319,
+        "volcano": 0.0739,
+        "agricultural_burning": 0.0609,
+        "wildfire": 0.5065,
+        "unknown": 0.0733
+      },
+      "top_features": [
+        "sensor_agreement",
+        "detection_frequency",
+        "seasonal_deviation"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "forest",
+      "vnf_bt_match": false,
+      "confidence": 0.948,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00013",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "declining",
+      "statistic": 5.42,
+      "confidence": 0.306,
+      "coverage_status": "partial",
+      "baseline_days": 90
+    },
+    "evidence_complete": true,
+    "priority_tier": "P1",
+    "priority_rationale": "P1 priority: declining thermal anomaly on a source classified as wildfire.",
+    "last_updated": "2026-09-16T14:37:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00014",
+    "classification": {
+      "source_id": "SRC-00014",
+      "class_label": "industrial",
+      "class_probs": {
+        "industrial": 0.4471,
+        "gas_flare": 0.1651,
+        "volcano": 0.0694,
+        "agricultural_burning": 0.0296,
+        "wildfire": 0.1566,
+        "unknown": 0.1321
+      },
+      "top_features": [
+        "distance_to_known_facility",
+        "frp_p95",
+        "seasonal_deviation",
+        "cluster_compactness"
+      ],
+      "facility_name": "Vizag Steel Plant",
+      "facility_distance_m": 526.9,
+      "land_cover_class": "built_up",
+      "vnf_bt_match": false,
+      "confidence": 0.468,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00014",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "declining",
+      "statistic": -2.04,
+      "confidence": 0.682,
+      "coverage_status": "full",
+      "baseline_days": 90
+    },
+    "evidence_complete": true,
+    "priority_tier": "P2",
+    "priority_rationale": "P2 priority: declining thermal anomaly on a source classified as industrial.",
+    "last_updated": "2026-09-16T13:41:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00015",
+    "classification": {
+      "source_id": "SRC-00015",
+      "class_label": "unknown",
+      "class_probs": {
+        "industrial": 0.0584,
+        "gas_flare": 0.1081,
+        "volcano": 0.2003,
+        "agricultural_burning": 0.1872,
+        "wildfire": 0.0204,
+        "unknown": 0.4256
+      },
+      "top_features": [
+        "frp_p95",
+        "diurnal_pattern_score",
+        "cluster_compactness"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "built_up",
+      "vnf_bt_match": null,
+      "confidence": 0.978,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00015",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "flare_up",
+      "statistic": -1.55,
+      "confidence": 0.605,
+      "coverage_status": "partial",
+      "baseline_days": 90
+    },
+    "evidence_complete": true,
+    "priority_tier": "P2",
+    "priority_rationale": "P2 priority: flare up thermal anomaly on a source classified as unknown.",
+    "last_updated": "2026-09-16T15:24:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00016",
+    "classification": {
+      "source_id": "SRC-00016",
+      "class_label": "industrial",
+      "class_probs": {
+        "industrial": 0.5055,
+        "gas_flare": 0.2063,
+        "volcano": 0.144,
+        "agricultural_burning": 0.0366,
+        "wildfire": 0.0315,
+        "unknown": 0.0762
+      },
+      "top_features": [
+        "cluster_compactness",
+        "nighttime_persistence"
+      ],
+      "facility_name": "Bokaro Steel Plant",
+      "facility_distance_m": 3413.5,
+      "land_cover_class": "wetland",
+      "vnf_bt_match": true,
+      "confidence": 0.609,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00016",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "new",
+      "statistic": 2.04,
+      "confidence": 0.904,
+      "coverage_status": "insufficient",
+      "baseline_days": 14
+    },
+    "evidence_complete": true,
+    "priority_tier": "P4",
+    "priority_rationale": "P4 priority: new thermal anomaly on a source classified as industrial.",
+    "last_updated": "2026-09-16T13:27:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00017",
+    "classification": {
+      "source_id": "SRC-00017",
+      "class_label": "gas_flare",
+      "class_probs": {
+        "industrial": 0.1754,
+        "gas_flare": 0.4329,
+        "volcano": 0.0781,
+        "agricultural_burning": 0.1271,
+        "wildfire": 0.1394,
+        "unknown": 0.0471
+      },
+      "top_features": [
+        "brightness_temp_std",
+        "sensor_agreement"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "cropland",
+      "vnf_bt_match": false,
+      "confidence": 0.531,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00017",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "persistent",
+      "statistic": 4.35,
+      "confidence": 0.618,
+      "coverage_status": "full",
+      "baseline_days": 14
+    },
+    "evidence_complete": true,
+    "priority_tier": "P4",
+    "priority_rationale": "P4 priority: persistent thermal anomaly on a source classified as gas flare.",
+    "last_updated": "2026-09-16T13:34:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00018",
+    "classification": {
+      "source_id": "SRC-00018",
+      "class_label": "industrial",
+      "class_probs": {
+        "industrial": 0.4651,
+        "gas_flare": 0.0526,
+        "volcano": 0.1209,
+        "agricultural_burning": 0.0753,
+        "wildfire": 0.185,
+        "unknown": 0.1011
+      },
+      "top_features": [
+        "brightness_temp_std",
+        "seasonal_deviation"
+      ],
+      "facility_name": "Jamnagar Refinery Complex",
+      "facility_distance_m": 901.1,
+      "land_cover_class": "barren",
+      "vnf_bt_match": true,
+      "confidence": 0.464,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00018",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "persistent",
+      "statistic": 0.91,
+      "confidence": 0.803,
+      "coverage_status": "full",
+      "baseline_days": 90
+    },
+    "evidence_complete": true,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: persistent thermal anomaly on a source classified as industrial.",
+    "last_updated": "2026-09-16T11:07:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00019",
+    "classification": {
+      "source_id": "SRC-00019",
+      "class_label": "industrial",
+      "class_probs": {
+        "industrial": 0.4301,
+        "gas_flare": 0.0003,
+        "volcano": 0.1802,
+        "agricultural_burning": 0.1048,
+        "wildfire": 0.1401,
+        "unknown": 0.1445
+      },
+      "top_features": [
+        "nighttime_persistence",
+        "cluster_compactness",
+        "sensor_agreement",
+        "frp_p95"
+      ],
+      "facility_name": "Jamnagar Refinery Complex",
+      "facility_distance_m": 4744.9,
+      "land_cover_class": "barren",
+      "vnf_bt_match": null,
+      "confidence": 0.585,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00019",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "seasonal",
+      "statistic": 4.63,
+      "confidence": 0.797,
+      "coverage_status": "full",
+      "baseline_days": 30
+    },
+    "evidence_complete": true,
+    "priority_tier": "P4",
+    "priority_rationale": "P4 priority: seasonal thermal anomaly on a source classified as industrial.",
+    "last_updated": "2026-09-16T09:47:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00020",
+    "classification": {
+      "source_id": "SRC-00020",
+      "class_label": "agricultural_burning",
+      "class_probs": {
+        "industrial": 0.0246,
+        "gas_flare": 0.0811,
+        "volcano": 0.1814,
+        "agricultural_burning": 0.42,
+        "wildfire": 0.1742,
+        "unknown": 0.1187
+      },
+      "top_features": [
+        "sensor_agreement",
+        "distance_to_known_facility",
+        "frp_p95"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "barren",
+      "vnf_bt_match": false,
+      "confidence": 0.524,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00020",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "flare_up",
+      "statistic": 4.07,
+      "confidence": 0.719,
+      "coverage_status": "full",
+      "baseline_days": 60
+    },
+    "evidence_complete": true,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: flare up thermal anomaly on a source classified as agricultural burning.",
+    "last_updated": "2026-09-16T11:42:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00021",
+    "classification": {
+      "source_id": "SRC-00021",
+      "class_label": "unknown",
+      "class_probs": {
+        "industrial": 0.177,
+        "gas_flare": 0.1357,
+        "volcano": 0.1215,
+        "agricultural_burning": 0.0523,
+        "wildfire": 0.1224,
+        "unknown": 0.3909
+      },
+      "top_features": [
+        "nighttime_persistence",
+        "seasonal_deviation"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "built_up",
+      "vnf_bt_match": true,
+      "confidence": 0.487,
+      "assessment_status": "pending"
+    },
+    "anomaly": {
+      "source_id": "SRC-00021",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "persistent",
+      "statistic": -2.58,
+      "confidence": 0.979,
+      "coverage_status": "partial",
+      "baseline_days": 7
+    },
+    "evidence_complete": false,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: persistent thermal anomaly on a source classified as unknown.",
+    "last_updated": "2026-09-16T11:35:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00022",
+    "classification": {
+      "source_id": "SRC-00022",
+      "class_label": "agricultural_burning",
+      "class_probs": {
+        "industrial": 0.1118,
+        "gas_flare": 0.0552,
+        "volcano": 0.1484,
+        "agricultural_burning": 0.3405,
+        "wildfire": 0.1699,
+        "unknown": 0.1742
+      },
+      "top_features": [
+        "sensor_agreement",
+        "nighttime_persistence"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "built_up",
+      "vnf_bt_match": null,
+      "confidence": 0.706,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00022",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "declining",
+      "statistic": -2.55,
+      "confidence": 0.472,
+      "coverage_status": "partial",
+      "baseline_days": 60
+    },
+    "evidence_complete": true,
+    "priority_tier": "P2",
+    "priority_rationale": "P2 priority: declining thermal anomaly on a source classified as agricultural burning.",
+    "last_updated": "2026-09-16T14:20:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00023",
+    "classification": {
+      "source_id": "SRC-00023",
+      "class_label": "agricultural_burning",
+      "class_probs": {
+        "industrial": 0.1581,
+        "gas_flare": 0.1484,
+        "volcano": 0.102,
+        "agricultural_burning": 0.3693,
+        "wildfire": 0.084,
+        "unknown": 0.1382
+      },
+      "top_features": [
+        "vnf_bt_delta",
+        "detection_frequency",
+        "diurnal_pattern_score",
+        "nighttime_persistence"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "barren",
+      "vnf_bt_match": true,
+      "confidence": 0.896,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00023",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "declining",
+      "statistic": -0.5,
+      "confidence": 0.837,
+      "coverage_status": "full",
+      "baseline_days": 14
+    },
+    "evidence_complete": true,
+    "priority_tier": "P4",
+    "priority_rationale": "P4 priority: declining thermal anomaly on a source classified as agricultural burning.",
+    "last_updated": "2026-09-16T13:08:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00024",
+    "classification": {
+      "source_id": "SRC-00024",
+      "class_label": "agricultural_burning",
+      "class_probs": {
+        "industrial": 0.0961,
+        "gas_flare": 0.2554,
+        "volcano": 0.023,
+        "agricultural_burning": 0.4722,
+        "wildfire": 0.1096,
+        "unknown": 0.0437
+      },
+      "top_features": [
+        "brightness_temp_std",
+        "sensor_agreement"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "forest",
+      "vnf_bt_match": false,
+      "confidence": 0.72,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00024",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "new",
+      "statistic": 0.74,
+      "confidence": 0.443,
+      "coverage_status": "full",
+      "baseline_days": 90
+    },
+    "evidence_complete": true,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: new thermal anomaly on a source classified as agricultural burning.",
+    "last_updated": "2026-09-16T09:32:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00025",
+    "classification": {
+      "source_id": "SRC-00025",
+      "class_label": "industrial",
+      "class_probs": {
+        "industrial": 0.3466,
+        "gas_flare": 0.0752,
+        "volcano": 0.1718,
+        "agricultural_burning": 0.1611,
+        "wildfire": 0.1037,
+        "unknown": 0.1416
+      },
+      "top_features": [
+        "nighttime_persistence",
+        "vnf_bt_delta",
+        "diurnal_pattern_score",
+        "detection_frequency"
+      ],
+      "facility_name": "Vizag Steel Plant",
+      "facility_distance_m": 2184.8,
+      "land_cover_class": "cropland",
+      "vnf_bt_match": false,
+      "confidence": 0.598,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00025",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "declining",
+      "statistic": 3.11,
+      "confidence": 0.579,
+      "coverage_status": "full",
+      "baseline_days": 60
+    },
+    "evidence_complete": true,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: declining thermal anomaly on a source classified as industrial.",
+    "last_updated": "2026-09-16T14:23:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00026",
+    "classification": {
+      "source_id": "SRC-00026",
+      "class_label": "wildfire",
+      "class_probs": {
+        "industrial": 0.1669,
+        "gas_flare": 0.008,
+        "volcano": 0.1901,
+        "agricultural_burning": 0.0401,
+        "wildfire": 0.5801,
+        "unknown": 0.0149
+      },
+      "top_features": [
+        "cluster_compactness",
+        "nighttime_persistence",
+        "vnf_bt_delta"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "barren",
+      "vnf_bt_match": false,
+      "confidence": 0.849,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00026",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "declining",
+      "statistic": 0.41,
+      "confidence": 0.819,
+      "coverage_status": "partial",
+      "baseline_days": 30
+    },
+    "evidence_complete": true,
+    "priority_tier": "P1",
+    "priority_rationale": "P1 priority: declining thermal anomaly on a source classified as wildfire.",
+    "last_updated": "2026-09-16T14:47:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00027",
+    "classification": {
+      "source_id": "SRC-00027",
+      "class_label": "agricultural_burning",
+      "class_probs": {
+        "industrial": 0.2523,
+        "gas_flare": 0.0594,
+        "volcano": 0.0182,
+        "agricultural_burning": 0.6512,
+        "wildfire": 0.0107,
+        "unknown": 0.0082
+      },
+      "top_features": [
+        "nighttime_persistence",
+        "frp_p95"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "grassland",
+      "vnf_bt_match": true,
+      "confidence": 0.541,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00027",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "new",
+      "statistic": 1.26,
+      "confidence": 0.379,
+      "coverage_status": "insufficient",
+      "baseline_days": 60
+    },
+    "evidence_complete": true,
+    "priority_tier": "P3",
+    "priority_rationale": "P3 priority: new thermal anomaly on a source classified as agricultural burning.",
+    "last_updated": "2026-09-16T09:30:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00028",
+    "classification": {
+      "source_id": "SRC-00028",
+      "class_label": "volcano",
+      "class_probs": {
+        "industrial": 0.1747,
+        "gas_flare": 0.0268,
+        "volcano": 0.5419,
+        "agricultural_burning": 0.2254,
+        "wildfire": 0.0253,
+        "unknown": 0.006
+      },
+      "top_features": [
+        "diurnal_pattern_score",
+        "sensor_agreement",
+        "distance_to_known_facility"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "wetland",
+      "vnf_bt_match": true,
+      "confidence": 0.445,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00028",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "flare_up",
+      "statistic": 3.22,
+      "confidence": 0.733,
+      "coverage_status": "full",
+      "baseline_days": 30
+    },
+    "evidence_complete": true,
+    "priority_tier": "P2",
+    "priority_rationale": "P2 priority: flare up thermal anomaly on a source classified as volcano.",
+    "last_updated": "2026-09-16T09:38:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00029",
+    "classification": {
+      "source_id": "SRC-00029",
+      "class_label": "wildfire",
+      "class_probs": {
+        "industrial": 0.0119,
+        "gas_flare": 0.1538,
+        "volcano": 0.1909,
+        "agricultural_burning": 0.0199,
+        "wildfire": 0.6199,
+        "unknown": 0.0037
+      },
+      "top_features": [
+        "vnf_bt_delta",
+        "brightness_temp_std",
+        "sensor_agreement"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "barren",
+      "vnf_bt_match": null,
+      "confidence": 0.926,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00029",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "new",
+      "statistic": 1.14,
+      "confidence": 0.406,
+      "coverage_status": "full",
+      "baseline_days": 90
+    },
+    "evidence_complete": true,
+    "priority_tier": "P4",
+    "priority_rationale": "P4 priority: new thermal anomaly on a source classified as wildfire.",
+    "last_updated": "2026-09-16T09:55:51.295651Z"
+  },
+  {
+    "source_id": "SRC-00030",
+    "classification": {
+      "source_id": "SRC-00030",
+      "class_label": "volcano",
+      "class_probs": {
+        "industrial": 0.0948,
+        "gas_flare": 0.0854,
+        "volcano": 0.4374,
+        "agricultural_burning": 0.0526,
+        "wildfire": 0.167,
+        "unknown": 0.1629
+      },
+      "top_features": [
+        "seasonal_deviation",
+        "vnf_bt_delta"
+      ],
+      "facility_name": null,
+      "facility_distance_m": null,
+      "land_cover_class": "built_up",
+      "vnf_bt_match": false,
+      "confidence": 0.736,
+      "assessment_status": "complete"
+    },
+    "anomaly": {
+      "source_id": "SRC-00030",
+      "as_of_date": "2026-09-16",
+      "anomaly_type": "declining",
+      "statistic": 3.01,
+      "confidence": 0.532,
+      "coverage_status": "full",
+      "baseline_days": 30
+    },
+    "evidence_complete": true,
+    "priority_tier": "P4",
+    "priority_rationale": "P4 priority: declining thermal anomaly on a source classified as volcano.",
+    "last_updated": "2026-09-16T13:55:51.295651Z"
+  }
+]
