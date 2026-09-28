@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import json
-from fusion import get_fused_assessment, get_diverse_assessments, get_all_map_sources, get_stats, get_frp_history
+from .fusion import get_fused_assessment, get_diverse_assessments, get_all_map_sources, get_stats, get_frp_history
 
 app = FastAPI()
 
