@@ -12,7 +12,7 @@
 
 * **Problem Statement:** Thermal Anomaly Classification System
 * **PS ID:** SIH PS162
-* **Ministry/Organization:** `[Add Official Name]`
+* **Ministry/Organization:** National Technical Research Organisation (NTRO)
 
 ## 🌍 About
 
